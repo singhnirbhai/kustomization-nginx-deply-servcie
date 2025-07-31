@@ -1,8 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-
-resources:
-
-- ../../base #- https://github.com/singhnirbhai/kustomization-nginx-deply-servcie//base we can go with github repo path also 
-
-namePrefix: dev-
